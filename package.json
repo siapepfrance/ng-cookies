@@ -1,6 +1,6 @@
 {
   "name": "@ngx-utils/cookies",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Manage your cookies on client and server side (Angular Universal)",
   "keywords": [
     "angular",
@@ -26,27 +26,26 @@
     "release": "npm run build && cd ./release && npm publish"
   },
   "peerDependencies": {
-    "@angular/core": "9.0.0",
+    "@angular/core": "13.0.0",
     "rxjs": "6.5.3",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
-    "@angular/common": "9.0.0",
-    "@angular/compiler": "9.0.0",
-    "@angular/compiler-cli": "9.0.0",
-    "@angular/core": "9.0.0",
-    "cpy-cli": "^1.0.1",
+    "@angular/common": "13.0.0",
+    "@angular/compiler": "13.0.0",
+    "@angular/compiler-cli": "13.0.0",
+    "@angular/core": "13.0.0",
+    "cpy-cli": "^4.1.0",
     "rimraf": "^2.6.1",
     "rollup": "^0.43.0",
-    "rxjs": "6.5.3",
-    "typescript": "3.7.5",
+    "rxjs": "^7.5.0",
+    "typescript": "4.4.2",
     "uglify-js": "^3.0.18",
-    "zone.js": "^0.8.19"
+    "zone.js": "~0.11.4"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngx-utils/cookies.git"
+    "url": "git+https://github.com/siapepfrance/ng-cookies.git"
   },
   "homepage": "https://github.com/ngx-utils/cookies#readme",
   "bugs": {

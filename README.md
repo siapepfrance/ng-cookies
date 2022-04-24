@@ -20,7 +20,7 @@ Example in [@ngx-utils/universal-starter](https://github.com/ngx-utils/universal
 
 ## Prerequisites
 
-This package depends on `@angular v9.0.0`.
+This package depends on `@angular v13.0.0`.
 
 ## Getting started
 
