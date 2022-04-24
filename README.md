@@ -1,6 +1,6 @@
-# @ngx-utils/cookies
+# @siapepfrance/ngx-cookies
 
-[![npm version](https://badge.fury.io/js/%40ngx-utils%2Fcookies.svg)](https://badge.fury.io/js/%40ngx-utils%2Fcookies) [![npm downloads](https://img.shields.io/npm/dm/@ngx-utils/cookies.svg)](https://www.npmjs.com/package/@ngx-utils/cookies)
+[![npm version](https://badge.fury.io/js/%40ngx-utils%2Fcookies.svg)](https://badge.fury.io/js/%40ngx-utils%2Fcookies) [![npm downloads](https://img.shields.io/npm/dm/@siapepfrance/ngx-cookies.svg)](https://www.npmjs.com/package/@siapepfrance/ngx-cookies)
 
 Manage your cookies on client and server side (Angular Universal)
 
@@ -20,16 +20,16 @@ Example in [@ngx-utils/universal-starter](https://github.com/ngx-utils/universal
 
 ## Prerequisites
 
-This package depends on `@angular v9.0.0`.
+This package depends on `@angular v13.0.0`.
 
 ## Getting started
 
 ### Installation
 
-Install **@ngx-utils/cookies** from npm:
+Install **@siapepfrance/ngx-cookies** from npm:
 
 ```bash
-npm install @ngx-utils/cookies --save
+npm install @siapepfrance/ngx-cookies --save
 ```
 
 ### browser.module.ts
@@ -39,7 +39,7 @@ Add **BrowserCookiesModule** to your browser module:
 ```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserCookiesModule } from '@ngx-utils/cookies/browser';
+import { BrowserCookiesModule } from '@siapepfrance/ngx-cookies/browser';
 ...
 import { AppModule } from './app/app.module';
 import { AppComponent } from './app/app.component';
@@ -64,7 +64,7 @@ Add **ServerCookiesModule** to your server module:
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ServerModule } from '@angular/platform-server';
-import { ServerCookiesModule } from '@ngx-utils/cookies/server';
+import { ServerCookiesModule } from '@siapepfrance/ngx-cookies/server';
 ...
 import { AppModule } from './app/app.module';
 import { AppComponent } from './app/app.component';
@@ -148,11 +148,11 @@ app.engine("html", (_, options, callback) => {
 });
 ```
 
-Then just import `CookiesService` from `@ngx-utils/cookies` and use it:
+Then just import `CookiesService` from `@siapepfrance/ngx-cookies` and use it:
 
 ```ts
 import { Component, OnInit } from "@angular/core";
-import { CookiesService } from "@ngx-utils/cookies";
+import { CookiesService } from "@siapepfrance/ngx-cookies";
 
 @Component({
   selector: "app-root",
@@ -203,7 +203,7 @@ import {
   CookiesService,
   CookiesOptionsService,
   CookiesOptions
-} from "@ngx-utils/cookies";
+} from "@siapepfrance/ngx-cookies";
 
 @Injectable()
 export class ServerCookiesService extends CookiesService {
